@@ -1,0 +1,34 @@
+.topInfo{
+    background-image: url('../img/abbac.png');
+    height:30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .topInfo{
+        font-size: 2rem;
+        height: 25vh;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .topInfo{
+        font-size: 1.2rem;
+        height: 15vh;
+    }
+
+  }

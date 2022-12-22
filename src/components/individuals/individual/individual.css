@@ -1,0 +1,36 @@
+.individual__container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.individual__container img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.individual img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+    
+
+.indi {
+  /* border: 0.1rem solid var(--color-black); */
+  /* justify-content:center; */
+}
+
+.indi .individual_name {
+    font-family: 'Montserrat';
+    font-weight: 700;
+  }
+
+.indi .individual__detail {
+    font-family: 'Montserrat';
+    color: var(--color-secondary);
+  }
+
+  .indi:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+  }

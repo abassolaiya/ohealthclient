@@ -1,0 +1,178 @@
+.main_login{
+    /* border: 1px solid red; */
+    margin: 3rem;
+    min-height: 80vh;
+    display: flex;
+}
+
+.left_login{
+    background-color: #EFF0F7;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left_login_top{
+    background-color: white;
+    /* min-height: 70%; */
+    width: 70%;
+    margin-top: 2rem;
+    border-radius: 9px;
+    box-shadow: 7px 7px 10px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 10px -3px rgba(0,0,0,0.75);
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+.left_login_top_img{
+    width: 90px;
+    display: block;
+    border-radius: 50%;
+    height: 90px;
+    margin: 0rem auto;
+}
+
+.left_login_top_txt{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.left_login_top_desc{
+    font-size: .8rem;
+    text-align: center;
+}
+
+
+
+.right_login{
+    /* border: 1px solid red; */
+    width: 50%;
+    padding: 4rem 3rem 4rem 3rem;
+}
+
+.right_login_top{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #170F49;
+}
+
+.right_login_sub{
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+
+.login_form{
+    margin-top: 1.8rem;
+}
+
+.login_form label{
+    font-size: .9rem;
+    font-weight: 700;
+    color: #020246;
+    display: block;
+}
+
+.login_form input{
+    border: none;
+    border: 1px solid lightgray;
+    display: block;
+    margin-top: .5rem;
+    padding: .8rem;
+    font-size: .9rem;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.login_s_button{
+    display: block;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #40C29D;
+    color: white;
+    padding: 1rem;
+    font-size: .9rem;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.lets_forget{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: gray;
+}
+
+.login_or{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    justify-content: space-evenly;
+}
+
+.login_or div{
+    border: 1px solid lightgray;
+    width: 30%;
+}
+
+.sign_inwith{
+    display: flex;
+    margin: 1rem auto;
+    width: 80%;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius:6px;
+    background-color: transparent;
+    border: 2px solid #EFF0F7;
+}
+
+.sign_inwith_ic{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 813px) {
+
+    .left_login{
+        display: none;
+    }
+
+    .right_login{
+        width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 813px) {
+
+    .right_login{
+        padding: 0rem;
+    }
+
+    .main_login{
+        /* border: 1px solid red; */
+        margin: 3rem 1rem;
+    }
+
+  }
+
+

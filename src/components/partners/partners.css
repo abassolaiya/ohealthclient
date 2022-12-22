@@ -1,0 +1,19 @@
+.container_partners {
+    text-align: center;
+    /* margin: 2rem 0; */
+} .imgcontainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 2rem 0;
+} 
+
+.container_partners img {
+    width: 10vw; 
+    margin: auto;
+    } 
+.bhin{
+    height: 10vw;
+    background-color: var(--color-black);
+    padding: 1rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,108 @@
+.services {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+
+  .serviced{
+    width: 30%;
+    padding: 2rem;
+    margin: 0.5rem;
+    text-align: center;
+    text-justify: inter-word;
+    background: var(--color-grey);
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .services img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+  .service p {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 1rem;
+    font-size: 13px;
+  }
+
+  .service h5{
+    font-size: 15px;
+    margin-top: 1rem; 
+  }
+
+  .services Button {
+    background-color: var(--color-primary);
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    color: var(--color-white);
+    font-weight: 500;
+    transition: var(--transition);
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+  
+  .services button:hover {
+    background-color: var(--color-secondary);
+  }
+
+  .reassured {
+    text-align: right;
+    /* margin-top: 80px; */
+    border: 5rem;
+    font-size: medium;
+    width: 30%;
+  }
+
+  .reassure__button {
+    background-color: var(--color-primary);
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    color: var(--color-white);
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    .services {
+        flex-wrap: wrap;
+      }
+
+      .serviced{
+        width: 45%;
+        padding: 2rem;
+      }
+
+      .reassured {
+        width: 45%;
+      }
+
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .services {
+        flex-wrap: wrap;
+        padding: .5rem;
+      }
+
+      .serviced{
+        width: 100%;
+        padding: 2rem;
+      }
+
+      .reassured {
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-top: 15px;
+        padding: .5rem;
+      }
+
+  }
